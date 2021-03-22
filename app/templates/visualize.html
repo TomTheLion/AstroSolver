@@ -1,0 +1,23 @@
+{% extends "public/templates/public_template.html" %}
+
+{% block title %}Visualize{% endblock %}
+{% block main %}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Visualize</h1>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class={% if navigation=="use" %} "nav-link active" {% else %} "nav-link " {% endif %}
+                        href="/visualize/use">Use</a>
+                </li>
+                <li class="nav-item">
+                    <a class={% if navigation=="build" %} "nav-link active" {% else %} "nav-link " {% endif %}
+                        href="/visualize/build">Build</a>
+                </li>
+            </ul>
+    </div>
+</div>
+
+{% endblock %}

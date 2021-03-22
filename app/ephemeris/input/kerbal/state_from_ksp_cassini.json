@@ -1,0 +1,999 @@
+{
+    "entries": [
+        "time",
+        {
+            "span": 1475287851.0491533,
+            "$type": "kOS.Suffixed.TimeSpan"
+        },
+        "bodies",
+        {
+            "entries": [
+                "Sun",
+                {
+                    "entries": [
+                        "mu",
+                        1.3271200000000002E+20,
+                        "radius",
+                        696342000,
+                        "atmospheric height",
+                        600000,
+                        "position",
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "$type": "kOS.Suffixed.Vector"
+                        },
+                        "velocity",
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "$type": "kOS.Suffixed.Vector"
+                        },
+                        "solar prime vector",
+                        {
+                            "x": 0.9361192529258191,
+                            "y": 0,
+                            "z": -0.35168273244731,
+                            "$type": "kOS.Suffixed.Vector"
+                        }
+                    ],
+                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                },
+                "planets",
+                {
+                    "entries": [
+                        "Mercury",
+                        {
+                            "entries": [
+                                "mu",
+                                22039146976000.004,
+                                "radius",
+                                2439700,
+                                "atmospheric height",
+                                0,
+                                "position",
+                                {
+                                    "x": 36601758869.191544,
+                                    "y": 16667974460.270004,
+                                    "z": 32715560517.818268,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": -20984.045537228885,
+                                    "y": -15464.969075446892,
+                                    "z": 46351.176731288026,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        },
+                        "Venus",
+                        {
+                            "entries": [
+                                "mu",
+                                324859000000000,
+                                "radius",
+                                6049000,
+                                "atmospheric height",
+                                145000,
+                                "position",
+                                {
+                                    "x": -96959807932.963333,
+                                    "y": -40091409592.352684,
+                                    "z": -29303544110.535965,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": 7338.8435105599383,
+                                    "y": 6555.9570943012659,
+                                    "z": -33364.88884818204,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        },
+                        "Earth",
+                        {
+                            "entries": [
+                                "mu",
+                                398600441799999.94,
+                                "radius",
+                                6371000,
+                                "atmospheric height",
+                                140000,
+                                "position",
+                                {
+                                    "x": -34305779988.027374,
+                                    "y": 8271010407.3478107,
+                                    "z": -145560191580.08777,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": 26877.0845478246,
+                                    "y": 11694.262274653431,
+                                    "z": -5161.2099112189926,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        "Moon",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Earth",
+                                                "mu",
+                                                4903895801650.7207,
+                                                "radius",
+                                                1737100,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -34174315571.559914,
+                                                    "y": 8274075828.8312664,
+                                                    "z": -145176205192.09445,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 26001.120665725139,
+                                                    "y": 11389.201337424556,
+                                                    "z": -4867.648042074331,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        }
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        },
+                        "Mars",
+                        {
+                            "entries": [
+                                "mu",
+                                42828310000000,
+                                "radius",
+                                3375800,
+                                "atmospheric height",
+                                125000,
+                                "position",
+                                {
+                                    "x": -190024183911.011,
+                                    "y": -90117149742.107208,
+                                    "z": 49415365901.936554,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": -4839.51426111779,
+                                    "y": 1265.9277307434777,
+                                    "z": -24926.95586390786,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        "Phobos",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Mars",
+                                                "mu",
+                                                715461.376,
+                                                "radius",
+                                                7250,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -190031574344.12451,
+                                                    "y": -90122658531.450089,
+                                                    "z": 49413172846.089935,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": -4091.0665454149562,
+                                                    "y": 1085.4220502147327,
+                                                    "z": -26896.944496500422,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Deimos",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Mars",
+                                                "mu",
+                                                98776.384,
+                                                "radius",
+                                                5456,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -190009246304.61444,
+                                                    "y": -90103104254.220123,
+                                                    "z": 49427141307.627777,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": -5603.5355355110241,
+                                                    "y": 1165.5962304359944,
+                                                    "z": -23817.249257898253,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        }
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        },
+                        "Vesta",
+                        {
+                            "entries": [
+                                "mu",
+                                17285867200,
+                                "radius",
+                                262700,
+                                "atmospheric height",
+                                0,
+                                "position",
+                                {
+                                    "x": 2945550928.0598679,
+                                    "y": 7770763311.2216,
+                                    "z": -369842025580.99023,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": 17012.0552290775,
+                                    "y": 7142.4759182739508,
+                                    "z": -1137.7662921087021,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        },
+                        "Ceres",
+                        {
+                            "entries": [
+                                "mu",
+                                62669611200.000015,
+                                "radius",
+                                473000,
+                                "atmospheric height",
+                                0,
+                                "position",
+                                {
+                                    "x": -228303768344.56512,
+                                    "y": -125958061288.17444,
+                                    "z": -361429216827.215,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": 12186.945782229388,
+                                    "y": 6000.9270159893176,
+                                    "z": -9520.2610873222548,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        },
+                        "Jupiter",
+                        {
+                            "entries": [
+                                "mu",
+                                1.26686534E+17,
+                                "radius",
+                                69373000,
+                                "atmospheric height",
+                                1550000,
+                                "position",
+                                {
+                                    "x": -606272548664.37207,
+                                    "y": -196698783839.98032,
+                                    "z": -404650571227.15955,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": 6624.8109786423629,
+                                    "y": 4118.6033853456856,
+                                    "z": -10970.663951110781,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        "Io",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Jupiter",
+                                                "mu",
+                                                5961221515200.001,
+                                                "radius",
+                                                1811300,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -606000166959.02185,
+                                                    "y": -196528152465.72809,
+                                                    "z": -404924016087.26978,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 17929.235786248457,
+                                                    "y": 6762.0443671907169,
+                                                    "z": 1839.8951576297914,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Europa",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Jupiter",
+                                                "mu",
+                                                3203424918400,
+                                                "radius",
+                                                1550800,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -606511121724.87109,
+                                                    "y": -196685882574.37903,
+                                                    "z": -405279745832.80835,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 18304.240713396055,
+                                                    "y": 9918.8498231051544,
+                                                    "z": -15138.455269478767,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Ganymede",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Jupiter",
+                                                "mu",
+                                                9890319152000,
+                                                "radius",
+                                                2624100,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -606840742273.0105,
+                                                    "y": -197096338357.77002,
+                                                    "z": -403835709165.87451,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": -1506.7422767445814,
+                                                    "y": 1744.2682182295794,
+                                                    "z": -17819.472438209214,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Callisto",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Jupiter",
+                                                "mu",
+                                                7180896287040.001,
+                                                "radius",
+                                                2409300,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -607466538629.55,
+                                                    "y": -196966672008.33844,
+                                                    "z": -406062895760.65369,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 12088.083846069798,
+                                                    "y": 7452.456153999291,
+                                                    "z": -16199.462595161294,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        }
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        },
+                        "Saturn",
+                        {
+                            "entries": [
+                                "mu",
+                                3.7931187E+16,
+                                "radius",
+                                57216000,
+                                "atmospheric height",
+                                2000000,
+                                "position",
+                                {
+                                    "x": -105641996963.31555,
+                                    "y": 104256497465.92421,
+                                    "z": -1397232010018.3445,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": 9106.50509911025,
+                                    "y": 3650.958457643485,
+                                    "z": 76.860367765973479,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        "Mimas",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Saturn",
+                                                "mu",
+                                                2502312814.4000006,
+                                                "radius",
+                                                198200,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -105472201369.43427,
+                                                    "y": 104245536513.24887,
+                                                    "z": -1397305086031.2649,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 14570.089453781176,
+                                                    "y": 5132.6895267965938,
+                                                    "z": 13257.235762036587,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Enceladus",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Saturn",
+                                                "mu",
+                                                7209474697.6,
+                                                "radius",
+                                                252100,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -105791862551.61964,
+                                                    "y": 104281968965.03362,
+                                                    "z": -1397047620166.4219,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": -660.53290999141427,
+                                                    "y": 3185.9685398447032,
+                                                    "z": -7843.8807777623351,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Tethys",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Saturn",
+                                                "mu",
+                                                41209040219.2,
+                                                "radius",
+                                                531100,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -105377501851.39166,
+                                                    "y": 104227757557.26677,
+                                                    "z": -1397354301684.8396,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 13906.993570808323,
+                                                    "y": 4491.3385298096218,
+                                                    "z": 10326.935784242762,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Dione",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Saturn",
+                                                "mu",
+                                                73111342841.6,
+                                                "radius",
+                                                561400,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -105291550479.49055,
+                                                    "y": 104257440928.29768,
+                                                    "z": -1397094976878.57,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 5492.4576928483375,
+                                                    "y": 4781.53716046155,
+                                                    "z": 9342.21825879727,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Rhea",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Saturn",
+                                                "mu",
+                                                153938856534.40002,
+                                                "radius",
+                                                763800,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -105336853540.56062,
+                                                    "y": 104291297871.90521,
+                                                    "z": -1396804257027.1194,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 2224.237404592036,
+                                                    "y": 4479.4244356195177,
+                                                    "z": 4953.19506490069,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Titan",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Saturn",
+                                                "mu",
+                                                8978133000000.002,
+                                                "radius",
+                                                2573300,
+                                                "atmospheric height",
+                                                600000,
+                                                "position",
+                                                {
+                                                    "x": -106839032854.55743,
+                                                    "y": 104300423896.84575,
+                                                    "z": -1397186653785.74,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 8984.6411544099,
+                                                    "y": 3057.7035828996477,
+                                                    "z": -5579.4539119077526,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Iapetus",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Saturn",
+                                                "mu",
+                                                120467144000.00003,
+                                                "radius",
+                                                734500,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -102384958230.05632,
+                                                    "y": 104873205353.75356,
+                                                    "z": -1398463481076.9756,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 10227.151213384181,
+                                                    "y": 4286.9370144306749,
+                                                    "z": 3094.9321582981652,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        }
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        },
+                        "Uranus",
+                        {
+                            "entries": [
+                                "mu",
+                                5.793939E+15,
+                                "radius",
+                                24702000,
+                                "atmospheric height",
+                                1400000,
+                                "position",
+                                {
+                                    "x": -2645685014136.189,
+                                    "y": -966676881261.031,
+                                    "z": -931968251205.27612,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": 1427.0273203233021,
+                                    "y": 1474.3616185211304,
+                                    "z": -6267.9033387778054,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        "Miranda",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Uranus",
+                                                "mu",
+                                                4404892800,
+                                                "radius",
+                                                235700,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -2645641944943.3296,
+                                                    "y": -966621567368.73254,
+                                                    "z": -931858768243.01831,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": -1757.756135126466,
+                                                    "y": 7116.3042002520051,
+                                                    "z": -7863.9038767594493,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Ariel",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Uranus",
+                                                "mu",
+                                                86095632000.000015,
+                                                "radius",
+                                                578900,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -2645735304610.2041,
+                                                    "y": -966493189591.97327,
+                                                    "z": -931948212068.43982,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": -1510.441427109871,
+                                                    "y": 1109.3712563163942,
+                                                    "z": -10919.373716852126,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Umbriel",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Uranus",
+                                                "mu",
+                                                81423776000.000015,
+                                                "radius",
+                                                584700,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -2645744373782.4131,
+                                                    "y": -966419944571.08337,
+                                                    "z": -931925372469.35669,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": -1138.8162255245127,
+                                                    "y": 1500.8861298467257,
+                                                    "z": -10160.582767831576,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Titania",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Uranus",
+                                                "mu",
+                                                228253536000.00006,
+                                                "radius",
+                                                788900,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -2645869625878.8643,
+                                                    "y": -966290739279.33838,
+                                                    "z": -932053961189.93054,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": -84.2704999961361,
+                                                    "y": 58.349781698629613,
+                                                    "z": -9262.5560596583127,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        },
+                                        "Oberon",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Uranus",
+                                                "mu",
+                                                192213504000.00003,
+                                                "radius",
+                                                761400,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -2645356623753.3462,
+                                                    "y": -967024909494.26086,
+                                                    "z": -931630529018.39673,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 1952.8123699457951,
+                                                    "y": 3864.1325694916168,
+                                                    "z": -4289.0311180774552,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        }
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        },
+                        "Neptune",
+                        {
+                            "entries": [
+                                "mu",
+                                6836529000000001,
+                                "radius",
+                                24085000,
+                                "atmospheric height",
+                                1250000,
+                                "position",
+                                {
+                                    "x": -4168028283047.3408,
+                                    "y": -1540414803518.6133,
+                                    "z": -771743178053.79419,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": 701.691769089183,
+                                    "y": 915.907509744023,
+                                    "z": -5310.12023944698,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        "Triton",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Neptune",
+                                                "mu",
+                                                1427900000000,
+                                                "radius",
+                                                1353400,
+                                                "atmospheric height",
+                                                110000,
+                                                "position",
+                                                {
+                                                    "x": -4167914649326.1978,
+                                                    "y": -1540086111693.0928,
+                                                    "z": -771673167534.01648,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": 1503.8893805080329,
+                                                    "y": 1547.9676185953122,
+                                                    "z": -9579.5971087144717,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        }
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        },
+                        "Pluto",
+                        {
+                            "entries": [
+                                "mu",
+                                870967440000.00024,
+                                "radius",
+                                1187000,
+                                "atmospheric height",
+                                110000,
+                                "position",
+                                {
+                                    "x": -3125523110389.9829,
+                                    "y": -702180601506.61169,
+                                    "z": 3144824410572.2983,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "velocity",
+                                {
+                                    "x": -4021.1284333272952,
+                                    "y": -2291.6804825117042,
+                                    "z": -3916.8637955655063,
+                                    "$type": "kOS.Suffixed.Vector"
+                                },
+                                "satellites",
+                                {
+                                    "entries": [
+                                        "Charon",
+                                        {
+                                            "entries": [
+                                                "parent",
+                                                "Pluto",
+                                                "mu",
+                                                101446016000.00002,
+                                                "radius",
+                                                603500,
+                                                "atmospheric height",
+                                                0,
+                                                "position",
+                                                {
+                                                    "x": -3125528370758.4829,
+                                                    "y": -702170162466.45178,
+                                                    "z": 3144840139571.0454,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                },
+                                                "velocity",
+                                                {
+                                                    "x": -3956.5910591336224,
+                                                    "y": -2104.4285924713586,
+                                                    "z": -4019.5614002599227,
+                                                    "$type": "kOS.Suffixed.Vector"
+                                                }
+                                            ],
+                                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                        }
+                                    ],
+                                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                                }
+                            ],
+                            "$type": "kOS.Safe.Encapsulation.Lexicon"
+                        }
+                    ],
+                    "$type": "kOS.Safe.Encapsulation.Lexicon"
+                }
+            ],
+            "$type": "kOS.Safe.Encapsulation.Lexicon"
+        }
+    ],
+    "$type": "kOS.Safe.Encapsulation.Lexicon"
+}

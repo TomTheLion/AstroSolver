@@ -1,0 +1,126 @@
+{% extends "public/templates/public_template.html" %}
+
+{% block title %}Ephemeris{% endblock %}
+{% block main %}
+
+<div class="container">
+
+    <h1>Ephemeris</h1>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class={% if navigation=="run" %} "nav-link active" {% else %} "nav-link " {% endif %} href="/ephemeris/run">Run</a>
+        </li>
+        <li class="nav-item">
+            <a class={% if navigation=="build" %} "nav-link active" {% else %} "nav-link " {% endif %} href="/ephemeris/build">Build</a>
+        </li>
+        <li class="nav-item">
+            <a class={% if navigation=="process" %} "nav-link active" {% else %} "nav-link " {% endif %} href="/ephemeris/process">Process</a>
+        </li>
+    </ul>
+
+    {% if navigation=="run" %}
+
+    <p>run</p>
+
+    {% endif %}
+
+    {% if navigation=="build" %}
+
+    <p>build</p>
+
+    {% endif %}
+
+    {% if navigation=="process" %}
+
+    <div class="col">
+
+        <div class="row">
+
+            <h2>Upload Files</h2>
+
+            <form action="/ephemeris/process" method="POST" enctype="multipart/form-data">
+                <input type="file" class="custom-file-input" name="upload-file">
+                <input type="checkbox" class="chkbox" name="processed"> Processed</input>
+                <button type="submit" class="btn btn-primary btn-sm">Upload File</button>
+            </form>
+
+            <br>
+            <br>
+
+            <form action="/ephemeris/process" method="POST">
+
+            <h2>Kerbal Files</h2>
+
+                {% for file in data["files"]["kerbal files"] %}
+                <input type="radio" name="options-load" value={{ file ~ ".ksp" }}> {{ file }} </input>
+                <br>
+                {% endfor %}
+
+                <br>
+
+            <h2>Processed Files</h2>
+
+                {% for file in data["files"]["processed files"] %}
+                <input type="radio" name="options-load" value={{ file ~ ".pro" }}> {{ file }} </input>
+                <br>
+                {% endfor %}
+
+                <br>
+
+                <button type="submit" class="btn btn-primary" name="submit_button" value="load-file">Load</button>
+                <button type="submit" class="btn btn-danger" name="submit_button" value="delete-file">Delete</button>
+
+                <br>
+                <br>
+            </form>
+
+            <h2>Data Processing</h2>
+
+            <form action="/ephemeris/process" method="POST">
+                <input type="text" placeholder="Enter Filename" name="filename" required>
+                <br>
+                <br>
+                <button type="submit" class="btn btn-primary" name="submit_button" value="process">Process</button>
+                <br>
+                <p class="output-ephemeris">
+                    <h4>Scale</h4>
+                    <input type="radio" name="scale" value="m-s" checked="checked"> m - s</input><br>
+                    <input type="radio" name="scale" value="km-s"> km - s</input><br>
+                    <input type="radio" name="scale" value="au-year"> au - year</input><br>
+                    <input type="radio" name="scale" value="au-2piyear"> au - 2pi-years</input><br>
+                    <input type="radio" name="scale" value="kau-kyear"> kau - kyear</input><br>
+                </p>
+
+                <h4>Data</h4>
+
+                <div class="column-check">
+                    <p class="output-ephemeris">
+                        {%- for line in data["list_data"] -%}
+                        {%- if line[2] == 0 -%}
+                        <br>
+                        {%- else -%}
+                        <input type="checkbox" class="chkbox" name="options" value={{ line[0] }}></input>
+                        <br>
+                        {%- endif %}
+                        {%- endfor %}
+                    </p>
+                </div>
+
+                <div class="column">
+                    <pre class="output-ephemeris">
+                        {%- for line in data["list_data"] -%}
+                        {{ line[1] }}<br>
+                        {%- endfor %}
+                    </pre>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>  
+
+    {% endif %}
+</div>
+{% endblock %}

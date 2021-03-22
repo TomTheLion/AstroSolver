@@ -1,0 +1,24 @@
+{% extends "public/templates/public_template.html" %}
+
+{% block title %}Flight Plan{% endblock %}
+{% block main %}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Flight Plan</h1>
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class={% if navigation=="use" %} "nav-link active" {% else %} "nav-link " {% endif %}
+                        href="/flightplan/use">Use</a>
+                </li>
+                <li class="nav-item">
+                    <a class={% if navigation=="build" %} "nav-link active" {% else %} "nav-link " {% endif %}
+                        href="/flightplan/build">Build</a>
+                </li>
+            </ul>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{% block title %}Upload{% endblock %}
+
+{% block main %}
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+      <h1>Upload ephemeris data</h1>
+      <hr>
+
+      <form action="/upload-ephemeris-data" method="POST" enctype="multipart/form-data">
+
+        <div class="form-group">
+          <label>Select data</label>
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" name="data" id="data">
+            <label class="custom-file-label" for="image">Select data...</label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Upload</button>
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

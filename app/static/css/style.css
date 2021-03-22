@@ -1,0 +1,31 @@
+body {
+    background-color: #f1f1f1; 
+}
+
+.form-group {
+    width: 400px
+}
+
+.btn {
+    width: 150px
+}
+
+.output-data, .container {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.output-ephemeris {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.column-check {
+    float: left;
+    width: 18px;
+}
+
+.row {
+    padding-top: 12px;
+  }
+
